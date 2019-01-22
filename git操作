@@ -1,2 +1,3 @@
 仅仅联系git操作
 添加分支one,推到远端仓库
+git push --set-upstream origin one// 本地新建分支,推入远端
