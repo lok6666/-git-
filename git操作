@@ -3,4 +3,8 @@
 git push --set-upstream origin one// 本地新建分支,推入远端
 git push origin :the_branch// 删除远程分支
 git push origin --delete Chapater6// 删除远程分支
-git 回退
+git log // 查看提交历史
+git reflog // 查看命令历史
+git reset --hard HEAD^ //回退上一个版本, ^^回退上上个版本
+git reset --hard <commit_id> //回退到commit_id的状态
+git push origin HEAD --force // 使本地和远程的内容都回退到commit_id对应的状态(删除github的commit历史)
