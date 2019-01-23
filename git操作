@@ -3,3 +3,4 @@
 git push --set-upstream origin one// 本地新建分支,推入远端
 git push origin :the_branch// 删除远程分支
 git push origin --delete Chapater6// 删除远程分支
+git 回退
